@@ -7,7 +7,7 @@ const userModel = require('./users');
 
 
 
-// cookies Seyup 
+// cookies Setup 
 
 router.get('/' , function (req , res){
   res.cookie('age' , 25)
